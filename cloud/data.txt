@@ -1,0 +1,72 @@
+https://dweet.io/play/
+
+------------------------------------------------
+
+POST /dweet/for/{thing}
+
+https://dweet.io/play/#!/dweets/postDweet_post_0
+
+thing: t141_dm120_Leandro
+content: 
+{
+	"temperatureCelsius": "28",
+	"luminosityLux": "50",
+	"buttonState": "false",
+	"touchPress": "false",
+	"alarmeActiveted": "false",
+	"status": "acceptable ambient temperature"
+}
+{
+	"temperatureCelsius": "27",
+	"luminosityLux": "45",
+	"buttonState": "false",
+	"touchPress": "false",
+	"alarmeActiveted": "false",
+	"status": "low ambient temperature"
+}
+{
+	"temperatureCelsius": "30",
+	"luminosityLux": "55",
+	"buttonState": "true",
+	"touchPress": "false",
+	"alarmeActiveted": "true",
+	"status": "high ambient temperature"
+}
+{
+	"temperatureCelsius": "30",
+	"luminosityLux": "60",
+	"buttonState": "false",
+	"touchPress": "false",
+	"alarmeActiveted": "false",
+	"status": "high ambient temperature"
+}
+{
+	"temperatureCelsius": "29",
+	"luminosityLux": "50",
+	"buttonState": "false",
+	"touchPress": "false",
+	"alarmeActiveted": "false",
+	"status": "acceptable ambient temperature"
+}
+
+------------------------------------------------
+
+GET /get/latest/dweet/for/{thing}
+
+https://dweet.io/play/#!/dweets/getLatestDweet_get_2
+
+thing: t141_dm120_Leandro
+
+------------------------------------------------
+
+GET /get/dweets/for/{thing}
+
+https://dweet.io/play/#!/dweets/getAllDweets_get_3
+
+thing: t141_dm120_Leandro
+
+------------------------------------------------
+
+https://dweet.io/follow/t141_dm120_Leandro
+
+------------------------------------------------
